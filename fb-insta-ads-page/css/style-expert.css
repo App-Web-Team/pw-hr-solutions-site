@@ -1,0 +1,43 @@
+.expert-name {
+    color: var(--secondary);
+}
+
+.role {
+    color: black;
+}
+
+.expert-column p {
+    margin-bottom: 0;
+}
+
+.expert-container .heading {
+    color: black;
+    display: inline-block;
+    position: relative;
+}
+
+.expert-container .heading::after {
+    content: '';
+    height: 20px;
+    width: 100%;
+    background: black;
+    position: absolute;
+    left: 0%;
+    top: 110%;
+    border-radius: 5px;
+}
+
+.md-img {
+    filter: grayscale(100%);
+    border-radius: 8%;
+}
+
+.expert-container .expires-text p{
+    margin-bottom: 0 !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .point-1, .point-2 {
+        font-size: 15px !important;
+    }
+}

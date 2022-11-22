@@ -1,0 +1,33 @@
+/* webinar section styling */
+
+.webinar-underline {
+    color: #fff;
+    display: inline-block;
+    position: relative;
+}
+
+.webinar-underline::after {
+    content: '';
+    height: 20px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    border-radius: 5px;
+}
+
+.point-box {
+    width: 40px;
+    height: 40px;
+    border: 8px solid #fff;
+    border-radius: 5px;
+}
+
+.point-content .fw-bold {
+    font-weight: 500 !important;
+}
+
+.webinar-container .expires-text p {
+    color: #fff;
+}

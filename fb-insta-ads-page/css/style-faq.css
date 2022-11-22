@@ -1,0 +1,150 @@
+.faq-section {
+    max-width: 760px;
+    /* margin: 0 auto; */
+}
+
+.details {
+    cursor: pointer;
+}
+
+
+.summary h4 {
+    width: inherit;
+    padding-left: 20px;
+}
+
+.summary {
+    font-size: 20px;
+    color: #131635;
+    /* display: flex; */
+    justify-item: space-between;
+    align-items: center;
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 20px 0px;
+    border-radius: 10px;
+}
+
+summary::marker {
+    display: none;
+    content: "";
+}
+
+
+.summary p {
+    /* visibility: hidden; */
+    /* max-width: 650px; */
+    display: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 155%;
+    letter-spacing: .1px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 0;
+}
+
+.summary:hover {
+    /* background-color: #131635 !important;
+    color: #fff; */
+    cursor: pointer;
+}
+
+
+.summary p {
+    display: none;
+}
+
+.summary:hover p {
+    display: block;
+}
+
+.summary:hover {
+    background-color: var(--primary) !important;
+    padding: 0;
+    cursor: pointer;
+}
+
+.summary:hover h4 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.faq-heading p {
+    color: #fff;
+    font-size: 35px;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 13px;
+    width: fit-content;
+}
+
+
+.faq-container .left-col p {
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.faq-container .left-col span {
+    color: var(--secondary);
+}
+
+@media screen and (max-width: 600px) {
+    .faq-heading p {
+        font-size: 20px;
+    }
+
+    .faq-container .left-col p {
+        font-size: 20px;
+    }
+}
+
+/* timer styles */
+.faq-container .timer-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.faq-container .timer-box p {
+    font-size: 60px;
+    color: var(--secondary);
+    font-weight: 700;
+}
+
+.faq-container .timer-text {
+    font-size: 35px;
+    color: var(--secondary);
+    font-weight: 700;
+}
+
+.colon {
+    font-size: 100px !important;
+    margin-top: -75% !important;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .colon {
+        margin-top: -50% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .faq-container .timer-box p {
+        font-size: 40px;
+    }
+    .faq-container .timer-box {
+        border-radius: 5px;
+        padding: 0 0px;
+    }
+    .colon {
+        font-size: 60px !important;
+        margin-top: -75% !important;
+    }
+}

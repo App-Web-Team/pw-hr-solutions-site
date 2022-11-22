@@ -1,0 +1,31 @@
+footer .fa {
+    background-color: #fff;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+
+footer .fa-phone {
+    font-size: 4vw !important;
+    font-weight: bold;
+    color: var(--secondary) !important;
+}
+
+.ph-no {
+    display: inline;
+    margin-left: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+
+footer .fa-envelope {
+    font-size: 4vw !important;
+    font-weight: bold;
+    color: var(--secondary) !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .mail-col {
+        margin-top: 10px;
+    }
+}

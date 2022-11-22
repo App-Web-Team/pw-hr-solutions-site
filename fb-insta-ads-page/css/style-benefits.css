@@ -1,0 +1,12 @@
+.benefits-container .box {
+    background-color: var(--primary);
+    border-radius: 20px;
+}
+
+.benefits-container .img-fluid {
+    border-radius: 20px;
+}
+
+.benefit-text {
+    color: #fff;
+}

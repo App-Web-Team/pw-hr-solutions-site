@@ -1,0 +1,73 @@
+.masterclass-underline {
+    color: var(--primary);
+    display: inline-block;
+    position: relative;
+}
+
+.masterclass-underline::after {
+    content: '';
+    height: 20px;
+    width: 100%;
+    background: var(--primary);
+    position: absolute;
+    left: 0%;
+    top: 100%;
+    border-radius: 5px;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    background-color: var(--primary);
+    border: 5px solid var(--primary);
+    border-radius: 10px;
+}
+
+.square:nth-child(odd) {
+    margin-right: 16px;
+}
+
+
+
+/* .square:nth-child(even) {
+    margin-right: -16px !important;
+} */
+
+.square-content p {
+    color: var(--primary);
+    width: fit-content;
+    height: fit-content;
+}
+
+.square-content {
+    border: 5px solid var(--primary);
+    border-radius: 10px;
+}
+
+.square-content:nth-child(odd) {
+    margin-right: 16px !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .masterclass-container .first-col .row {
+        flex-wrap: nowrap;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .masterclass-container .first-col .row {
+        flex-wrap: nowrap;
+    }
+}
+
+.register-button {
+    margin-top: auto;
+}
+
+@media only screen and (max-width: 576px) {
+    .square-content:nth-child(odd) {
+        margin-right: 0px !important;
+    }
+}

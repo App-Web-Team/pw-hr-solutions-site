@@ -1,0 +1,39 @@
+.reviews-container .fa-user {
+  color: var(--primary);
+  font-size: 5vw;
+  border-radius: 50%;
+  border: 3px solid var(--primary);
+  padding: 1vw 1.5vw;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.reviewer-name {
+  color: red;
+}
+
+.reviews-container .fa {
+  color: var(--primary);
+}
+
+.review-content {
+  color: var(--primary);
+}
+
+.review-content span {
+  color: var(--secondary);
+}
+
+.reviews-container .card {
+  border-radius: 30px;
+}
+
+.reviews-container .expires-text {
+  color: #fff !important;
+}

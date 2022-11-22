@@ -1,0 +1,33 @@
+.certificate-container .heading {
+    color: #fff;
+    display: inline-block;
+    position: relative;
+}
+
+.certificate-container .heading::after {
+    content: '';
+    height: 20px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0%;
+    top: 110%;
+    border-radius: 5px;
+}
+
+.certificate-container .expires-text p {
+    color: #fff;
+}
+
+.certificate-img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .certificate-container .heading, .certificate-container .benefits {
+        font-size: 20px !important;
+    }
+}

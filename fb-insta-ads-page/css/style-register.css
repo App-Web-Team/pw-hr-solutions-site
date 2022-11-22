@@ -1,0 +1,153 @@
+/* style register section */
+.learn-text p {
+    font-size: 50px !important;
+    font-weight: 700 !important;
+}
+
+.learn-ads img {
+    /* display: inline; */
+    /* max-width:200px;
+    max-height:65px; */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* padding: 0 !important; */
+}
+
+.facebook-icon-logo {
+    display: inline;
+    max-width: 170px;
+    max-height: 35px;
+    width: auto !important;
+    height: auto !important;
+}
+
+.and-symbol {
+    /* display: inline; */
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    color: var(--primary) !important;
+    /* margin-bottom: 10px; */
+    margin-top: 10px;
+}
+
+.instagram-text {
+    position: relative;
+    margin-bottom: -28px;
+}
+
+.facebook-text {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.ads-text p {
+    font-weight: 700;
+    color: var(--secondary);
+    font-size: 80px;
+    /* margin-top: -20px;
+    margin-bottom: -20px; */
+}
+
+/* .increase-text p {
+    font-weight: 700;
+    font-size: 40px;
+} */
+
+.register-button button {
+    background-color: var(--secondary) !important;
+    border-radius: 1.5rem;
+    padding: 25px 25px;
+}
+
+.register-button button:hover {
+    cursor: pointer;
+}
+
+/* mobile view register button */
+@media only screen and (max-width: 992px) {
+    .register-button button {
+        background-color: var(--secondary) !important;
+        border-radius: 10px;
+        padding: 10px 10px;
+        font-size: 20px !important;
+    }
+}
+
+.date-row p {
+    margin-bottom: 0;
+}
+
+.date-row .fs-1 {
+    font-size: 50px !important;
+    color: var(--secondary);
+}
+
+@media only screen and (max-width: 992px) {
+    .learn-text p {
+        font-size: 30px !important;
+    }
+
+    .ads-text p {
+        font-size: 30px;
+    }
+}
+
+.reg-card {
+    background-color: grey;
+}
+
+.number-box {
+    background-color: grey;
+    border-radius: 20px;
+    position: relative;
+}
+
+.number-box p {
+    font-size: 100px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.line {
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+}
+
+.reg-text {
+    font-size: 35px;
+    color: var(--secondary);
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .number-box p {
+        font-size: 50px;
+    }
+
+    .number-box {
+        border-radius: 10px;
+    }
+
+    .reg-text {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .number-box p {
+        font-size: 50px;
+    }
+
+    .number-box {
+        border-radius: 10px;
+    }
+
+    .reg-text {
+        font-size: 20px;
+    }
+}

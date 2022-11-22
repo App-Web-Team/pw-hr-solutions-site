@@ -1,0 +1,62 @@
+#touch-section {
+    background-color: var(--secondary-color);
+    padding: 0px 0px;
+}
+
+.red-col .touch-text {
+    font-size: 36px;
+    color: var(--white-color);
+}
+
+.red-col .open-text {
+    font-size: 20px;
+    color: var(--white-color);
+}
+
+.red-col {
+    padding: 100px 0px 0px 100px;
+}
+
+.red-col .text {
+    color: var(--white-color);
+    font-size: 18px;
+}
+
+.outer-circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 2px solid var(--white-color);
+}
+
+.inner-circle {
+    height: 60px;
+    width: 60px;
+    background-color: var(--white-color);
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.red-col .fas {
+    font-size: 35px;
+    color: var(--secondary-color);
+    margin-top: 20%;
+    margin-left: 22%;
+}
+
+.red-col .fa-location-dot {
+    margin-left: 28%;
+}
+
+@media (max-width: 576px) {
+    .red-col {
+        padding:30px 10px 0px 10px;
+    }
+    .red-col .fas {
+        font-size: 50px;
+        color: var(--secondary-color);
+        margin-top: 16%;
+        margin-left: 0%;
+    }
+}
+

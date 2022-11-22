@@ -1,0 +1,91 @@
+#header h3,
+#header button {
+    font-size: 26px;
+}
+
+#header button {
+    padding: 18px 70px;
+    border-radius: 15px;
+    background-color: var(--secondary-color);
+}
+
+.hr-intro-column {
+    margin-top: 15%;
+}
+
+#header .news-text {
+    font-size: 24px;
+}
+
+.news-heading {
+    padding-bottom: 10px;
+    border-bottom: 3px solid var(--primary-color);
+}
+
+.news-column {
+    padding: 0;
+}
+
+.content-padding {
+    padding-left: 20px;
+}
+
+.small-text {
+    font-size: 14px;
+}
+
+.learning-margin {
+    margin-top: 80%;
+}
+
+.point-circle {
+    width: 10px;
+    height: 10px;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+}
+
+.content-padding-learning span {
+    font-size: 14px !important;
+}
+
+.content-padding p {
+    font-size: 12px;
+}
+
+.image-column {
+    padding-top: 8.7%;
+}
+
+.content-padding-learning {
+    padding-left: 20px;
+}
+
+.webinar-date {
+    font-size: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+@media only screen and (max-width: 1200px) {
+    .learning-margin {
+        margin-top: 10%;
+    }
+
+    .content-padding,
+    .content-padding-learning {
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #header button {
+        font-size: 14px;
+    }
+
+    #header button {
+        padding: 10px 50px;
+        border-radius: 10px;
+        background-color: var(--secondary-color);
+    }
+}

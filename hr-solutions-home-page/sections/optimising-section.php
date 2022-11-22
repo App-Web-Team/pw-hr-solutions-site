@@ -1,0 +1,58 @@
+<head>
+    <link rel="stylesheet" href="styles/style-optimising.css">
+</head>
+
+<section id="optimising-section">
+    <div class="container py-5">
+        <div class="heading">
+            <p class="red-text text-center">
+                Optimising the Workplace
+            </p>
+            <p class="content text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, nibh quis egestas viverra, tellus est laoreet mauris, vel cursus neque ligula a tellus. Nam luctus sem nisl, in tincidunt mi mattis ut. Nullam euismod interdum turpis, vitae pellentesque enim interdum vitae. Curabitur iaculis auctor lacinia. et eros sed eros lobortis mattis.
+            </p>
+        </div>
+        <!-- card row 1 -->
+        <div class="row justify-content-center mt-5">
+            <!-- card 1 -->
+            <div class="col-10 col-sm-6 col-md-4 d-flex align-items-stretch mb-4 mb-md-0">
+                <div class="box text-center text-white">
+                    <!-- icon -->
+                    <i class="fa fa-solid fa-clipboard-check"></i>
+                    <p class="heading fw-bold">
+                        Payroll
+                    </p>
+                    <p class="content mb-5">
+                        As per the Labour Bureau of India, our country has the highest number of unemployed educated youth - a staggering 14% of all graduates are unemployed.
+                    </p>
+                </div>
+            </div>
+            <!-- card 2 -->
+            <div class="col-10 col-sm-6 col-md-4 d-flex align-items-stretch mb-4 mb-md-0">
+                <div class="box text-center text-white">
+                    <!-- icon -->
+                    <i class="fa fa-solid fa-chalkboard-user"></i>
+                    <p class="heading fw-bold">
+                        Retenation
+                    </p>
+                    <p class="content mb-5">
+                        As per the Labour Bureau of India, our country has the highest number of unemployed educated youth - a staggering 14% of all graduates are unemployed.
+                    </p>
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="col-10 col-sm-6 col-md-4 d-flex align-items-stretch mb-4 mb-md-0">
+                <div class="box text-center text-white">
+                    <!-- icon -->
+                    <i class="fa fa-solid fa-award"></i>
+                    <p class="heading fw-bold">
+                        Performance
+                    </p>
+                    <p class="content mb-5">
+                        As per the Labour Bureau of India, our country has the highest number of unemployed educated youth - a staggering 14% of all graduates are unemployed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

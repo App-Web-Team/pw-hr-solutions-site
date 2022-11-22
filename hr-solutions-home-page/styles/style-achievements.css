@@ -1,0 +1,41 @@
+#achievement-section {
+    background-color: var(--primary-color);
+}
+
+#achievement-section .numbers {
+    color: var(--white-color);
+    font-size: 96px;
+    font-weight: bold;
+}
+
+#achievement-section .text {
+    color: var(--white-color);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1200px) {
+    #achievement-section .text {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #achievement-section .numbers {
+        font-size: 56px;
+    }
+
+    #achievement-section .text {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #achievement-section .numbers {
+        font-size: 36px;
+    }
+
+    #achievement-section .text {
+        font-size: 16px;
+    }
+}
